@@ -12,6 +12,8 @@ app.use(express.json());
 app.use(cors());
 
 const mongoUri = process.env.MONGODB_URI;
+const PORT = process.env.PORT || 3000;
+
 
 if (!mongoUri) {
   console.error("MONGODB_URI ist nicht definiert");
@@ -119,6 +121,6 @@ app.get("/api/user/profile/:userId", async (req, res) => {
 });
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log("Server läuft auf Port 3000");
 });
