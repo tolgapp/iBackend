@@ -13,7 +13,7 @@ app.use(cors());
 
 const mongoUri = process.env.MONGODB_URI;
 const PORT = process.env.PORT || 3000;
-
+const allowedOrigins = process.env.FRONTEND_LINK.split(',');
 
 if (!mongoUri) {
   console.error("MONGODB_URI ist nicht definiert");
@@ -21,6 +21,11 @@ if (!mongoUri) {
 }
 
 mongoose.connect(mongoUri);
+
+app.use(cors({
+  origin: allowedOrigins, 
+  credentials: true
+}));
 
 app.post("/api/signup", async (req, res) => {
   try {
@@ -60,7 +65,6 @@ app.post("/api/login", async (req, res) => {
       return res.status(401).send("Ungültige Anmeldedaten");
     }
 
-    // Send back the userId (_id) to the frontend
     res
       .status(200)
       .json({ message: "Anmeldung erfolgreich", userId: user._id, name: user.name, email: user.email });
@@ -107,7 +111,7 @@ app.get("/api/user/profile/:userId", async (req, res) => {
       return res.status(400).send("Ungültige Benutzer-ID");
     }
 
-    const user = await User.findById(userId, "name email"); // Select only name and email
+    const user = await User.findById(userId, "name email"); 
 
     if (!user) {
       return res.status(404).send("Benutzer nicht gefunden");
@@ -122,5 +126,5 @@ app.get("/api/user/profile/:userId", async (req, res) => {
 
 
 app.listen(PORT, () => {
-  console.log("Server läuft auf Port 3000");
+  console.log(`Server läuft auf Port ${PORT}`);
 });
