@@ -125,6 +125,10 @@ app.get("/api/user/profile/:userId", async (req, res) => {
   }
 });
 
+console.log("Server is starting on port:", process.env.PORT);
+console.log("Allowed Origins:", allowedOrigins);
+
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
