@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
-import { User } from "./model/userSchema.js";
 import { getProducts } from "./services/products.js";
 import { login, signup } from "./services/auth.js";
 import { getUserData, profileUpdate } from "./services/user.js";
