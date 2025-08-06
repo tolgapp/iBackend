@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "brand": "Nike",
+    "price": 120,
+    "images": [
+      "/images/af1-second.webp",
+      "/images/af1.webp"
+    ],
+    "description": "Classic Nike sneakers with a modern touch.",
+    "info": "Popular 🔥",
+    "category": ["Men", "Women"]
+  },
+  {
+    "id": 2,
+    "brand": "Apple",
+    "price": 250,
+    "images": [
+      "/images/airpods-max-black.webp",
+      "/images/airpods-max-black-second.webp"
+    ],
+    "description": "Premium over-ear headphones from Apple.",
+    "category": "Accessoires"
+  },
+  {
+    "id": 3,
+    "brand": "New Look",
+    "price": 60,
+    "images": [
+      "https://img01.ztat.net/article/spp-media-p1/f68cf95a85bf47ab98ebf8662c5fb8f9/298def6c90994208a72c6bce5a1a24bb.jpg?imwidth=1800&filter=packshot",
+      "https://img01.ztat.net/article/spp-media-p1/58e88a9071d74eaabdc791c7a484a408/ee9c137f7b994d3391820f00590ef3bc.jpg?imwidth=1800"
+    ],
+    "description": "Stylish dark grey jacket from New Look.",
+    "category": "Women"
+  },
+  {
+    "id": 4,
+    "brand": "Apple",
+    "price": 200,
+    "images": [
+      "/images/homepod.webp",
+      "/images/homepod-standalone.webp"
+    ],
+    "description": "Apple's smart speaker & high-fidelity audio.",
+    "info": "New",
+    "category": "Accessoires"
+  },
+  {
+    "id": 5,
+    "brand": "Rituals",
+    "price": 80,
+    "images": [
+      "/images/rituals-home-perfum-second.webp",
+      "/images/rituals-home-perfum.webp"
+    ],
+    "description": "Luxurious home perfume from Rituals.",
+    "info": "Always fresh",
+    "category": "Accessoires"
+  },
+  {
+    "id": 6,
+    "brand": "Ralph Lauren",
+    "price": 100,
+    "images": [
+      "/images/ralph-lauren-jeansshirt.webp",
+      "/images/ralph-lauren-jeansshirt.webp"
+    ],
+    "description": "Casual denim shirt by Ralph Lauren.",
+    "category": "Men"
+  },
+  {
+    "id": 7,
+    "brand": "Ralph Lauren",
+    "price": 70,
+    "images": [
+      "/images/ralph-lauren-tshirt.webp",
+      "/images/ralph-lauren-tshirt-second.webp"
+    ],
+    "description": "Classic t-shirt from Ralph Lauren.",
+    "category": "Men"
+  },
+  {
+    "id": 8,
+    "brand": "Rituals",
+    "price": 30,
+    "images": [
+      "/images/rituals-hand-wash.webp",
+      "/images/rituals-hand-wash-second.webp"
+    ],
+    "description": "Gentle hand wash by Rituals.",
+    "category": "Accessoires"
+  },
+  {
+    "id": 9,
+    "brand": "New Balance",
+    "price": 150,
+    "images": [
+      "/images/newbalance-uni-sneaker.webp",
+      "/images/newbalance-uni-sneaker-second.webp"
+    ],
+    "description": "Versatile sneakers from New Balance.",
+    "category": "Men"
+  },
+  {
+    "id": 10,
+    "brand": "Calvin Klein",
+    "price": 35,
+    "images": [
+      "https://img01.ztat.net/article/spp-media-p1/17d3aa99595243e98e5b40fcedd39e5c/0425b904fd92420890a8b1e0703bd229.jpg?imwidth=1800&filter=packshot",
+      "https://img01.ztat.net/article/spp-media-p1/20a2677d934f4929bc5e768eeb32b981/70f3b1e466e945b1bd127f45c1cd0615.jpg?imwidth=1800"
+    ],
+    "description": "Essential t-shirt by CK.",
+    "category": "Women"
+  },
+  {
+    "id": 11,
+    "brand": "Tommy Hilfiger",
+    "price": 39,
+    "images": [
+      "https://img01.ztat.net/article/spp-media-p1/7a37a23a82294b5a89bd72e56bf0defb/528362440aa04b7e9e18bbbaf72411a9.jpg?imwidth=1800&filter=packshott",
+      "https://img01.ztat.net/article/spp-media-p1/f3ae8f4ae0d9403ca50391a82d8bac4c/c1be408efad4444cb58fded2b1314277.jpg?imwidth=1800"
+    ],
+    "description": "Essential t-shirt by Tommy.",
+    "category": "Women"
+  }
+]
